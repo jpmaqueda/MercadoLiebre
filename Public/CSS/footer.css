@@ -1,0 +1,27 @@
+.general{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    min-width: 400px
+}
+.cajasdetext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.h3footer{
+    text-align: center;
+}
+.pfooter{
+    text-align: center;
+}
+.icono{
+    
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.general:hover .icono{
+    color: blueviolet;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link rel="stylesheet" href="../public/css/header.css"/>
+    <link rel="stylesheet" href="../public/css/form.css" />
+    <link rel="stylesheet" href="../public/css/footer.css" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/efecb5d88a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-top-bar">
+        <div class="logosearch">
+          <a href="./home.html"><img src="../public/img/logo.svg" class="logo" /></a>
+        <nav class="busqueda">
+          <input type="text" placeholder="Buscar productos, marcas y mas...">
+        </nav>
+      </div>
+      <div class="copy-header-full">
+        <div class="copy-header">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          Compra en cuotas y sin tarjeta de credito
+        </div>
+      </div>
+      </div>
+      <div class="copy-header-full-phone">
+        <div class="copy-header">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          Compra en cuotas y sin tarjeta de credito
+        </div>
+      </div>
+      <div class="burgerbox">
+      <a href="*" class="burger-menu">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </div>
+      <nav class="main-header-bottom-bar">
+        <ul class="left-navbar">
+          <li><a href="./ofertas.html">Ofertas</a></li>
+          <li><a href="./tienda.html">Tiendas Oficiales</a></li>
+          <li><a href="./Vender.html">Vender</a></li>
+          <li><a href="./Ayuda.html">Ayuda</a></li>
+        </ul>
+
+        <ul class="right-navbar">
+          <li>
+            <a href="./tucuenta.html"
+              >Crea tu Cuenta <i class="fa-sharp fa-solid fa-address-card"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./Ingresa.html"
+              >Ingresa <i class="fa-solid fa-right-to-bracket"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./Compras.html"
+              >Mis Compras <i class="fa-solid fa-basket-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="cajaformulario">
+        <div class="leyendaform">
+          <h1>Registrate</h1>
+        </div>
+        <div class="formulario">
+          <div class="lista">
+          <form action="/crearusuario" method="post">
+               <input required oninvalid="this.setCustomValidity('Debe tener como mínimo 3 letras')" value="" minlength="3" type="text" placeholder="Nombre" class="inputform" />
+               <input required oninvalid="this.setCustomValidity('Debe tener como mínimo 3 letras')" type="text" class="inputform" placeholder="Apellido" />
+               <input required oninvalid="this.setCustomValidity('Tiene que ser un correo Electrónico ')" type="email" class="inputform" placeholder="Correo Electrónico"/>
+               <input required oninvalid="this.setCustomValidity('Debe tener como mínimo 10 caracteres')" type="text" class="inputform" placeholder="Nombre de Usuario"/>
+               <input required oninvalid="this.setCustomValidity('Debe tener como mínimo 8 números')" type="tel" class="inputform" placeholder="Teléfono" />
+               <input required oninvalid="this.setCustomValidity('Debe tener como mínimo 3 letras')" type="text" class="inputform" placeholder="Domicilio" />
+               <input required oninvalid="this.setCustomValidity('Debe contener 12 carateres, mayúsculas, minúsculas, carater especial, sangre de virgenes del imperio maya')" minlength="12" type="password" class="inputform" placeholder="Contraseña"/>
+               <input required oninvalid="this.setCustomValidity('Tus contraseñas no coinciden')" minlength="12" type="password" class="inputform" placeholder="Confirmar Contraseña"/>
+               <input  required oninvalid="this.setCustomValidity('Debes tener como mínimo 18 años')" placeholder="Fecha de Nacimiento" class="inputform" type="text" onfocus="(this.type='date')"onblur="(this.type='text')"id="Fecha de Nacimiento"/>
+              </div>
+              <div class="cajaintereses">
+                  <label class="datosform">Intereses        
+                    <input type="checkbox" unchecked="unchecked">
+                  </label>
+                  <label class="datosform">Intereses
+                    <input type="checkbox" unchecked="unchecked">
+                  </label>
+                  <label class="datosform">Intereses  
+                    <input type="checkbox" unchecked="unchecked">   
+                  </label>
+                  <label class="datosform">Intereses    
+                    <input type="checkbox" unchecked="unchecked">           
+                  </label>
+                  <label class="datosform">Intereses         
+                    <input type="checkbox" unchecked="unchecked">
+                  </label>
+                  <label class="datosform">Intereses   
+                    <input type="checkbox" unchecked="unchecked">
+                  </label>
+                  <label class="datosform">Intereses
+                    <input type="checkbox" unchecked="unchecked">
+                  </label>
+                  <label class="datosform">Intereses
+                    <input type="checkbox" unchecked="unchecked" class="checkbox">
+                  </label>
+              </div>
+              <div class="inputfoto">
+              <div class="foto">
+                <div class="boton1">
+                <input type="file" accepts=".jpg" style="opacity: 0;"" class="boton1">AGREGA UNA FOTO</div>
+              </div>
+              <div class="photo"></div>
+            </div>
+              <div class="cajabotones">
+              <input type="submit" class="boton" value="ENVIAR">
+              <input type="reset" class="boton" value="BORRAR">
+            </div>
+            </form>
+        
+            </div>
+          </div>
+     
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="general">
+      <div class="cajasdetext">
+        <p class="icono"><i class="fa-sharp fa-solid fa-credit-card"></i></p>
+      <h3 class="h3footer">Pagá con tarjeta o en efectivo</h3>
+      <p class="pfooter">
+        Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo
+        en puntos de pago. ¡Y siempre es seguro!
+      </p>
+    </div>
+    <div class="cajasdetext">
+      <p class="icono"><i class="fa-solid fa-gift"></i></p>
+      <h3 class="h3footer">Envío gratis desde $ 2.500</h3>
+      <p class="pfooter">
+        Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles
+        de productos. Es un beneficio de Mercado Puntos.
+      </p>
+    </div>
+    <div class="cajasdetext">
+      <p class="icono"><i class="fa-solid fa-user-shield"></i></p>
+      <h3 class="h3footer">Seguridad, de principio a fin</h3>
+      <p class="pfooter">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+        hacer, porque estás siempre protegid@.
+      </p>
+    </div>
+  </div>
+    <div class="cajafinal">
+      <h3 class="h3footer">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
+    </div>
+    </footer>
+  </body>
+</html>

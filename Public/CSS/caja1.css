@@ -1,0 +1,141 @@
+.cajadecaja {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 400px;
+  justify-content: center;
+}
+.just {
+  justify-content: center;
+}
+.caja-completa {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.caja-completa:hover{
+  box-shadow: 5px 5px 5px 5px #868484;
+}
+.caja-completa:hover .camion{
+  transform: rotate(-90deg);
+}
+.posicioncamion {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
+  height: 1px;
+}
+.camion {
+  border: solid 2px green;
+  border-radius: 50%;
+  color: green;
+  padding: 4px;
+  transition: transform 1s ;
+}
+.caja1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  width: 360px;
+  min-height: auto;
+  background-color: white;
+  justify-content: flex-start;
+  align-content: center;
+  
+}
+.PyC {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 15px;
+  height: auto;
+  
+}
+.precios {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+  width: 70%;
+}
+.descuentos {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+  display: inline;
+  width: 30%;
+}
+.listasCaja1 {
+  list-style: none;
+  padding: 20px;
+  width: 100%;
+  
+}
+.producto {
+  font-weight: bold;
+  font-size: large;
+  color: darkgrey;
+  display: none;
+}
+.caja-completa:hover .producto{
+  display: flex;
+}
+
+.descripciones {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .cajadecaja {
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1000px;
+  }
+
+  .just {
+    display: flex;
+    justify-content: center;
+  }
+
+  .caja-completa {
+    column-span: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .caja1 {
+    column-span: none;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1148px) {
+  .cajadecaja {
+    justify-content: flex-start;
+    
+  }
+  .just {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 1300px) {
+  .cajadecaja {
+    align-items: center;
+    width: auto;
+    max-width: none;
+  }
+}
+.just {
+  padding-left: 0px;
+}
+.caja1 {
+  width: 300px;
+}
+.caja-completa {
+  padding: 0%;
+  width: 300px;
+}
+.imagen {
+  width: 300px;
+}

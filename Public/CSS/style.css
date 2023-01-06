@@ -1,0 +1,28 @@
+body {
+  font-family: "roboto", sans-serif;
+  margin: 0px;
+  width: 100%;
+  background-color: #ebebeb;
+}
+.imagen {
+  width: 360px;
+}
+ h3 {
+  font-size: 24px;
+}
+p {
+  font-size: 12px;
+}
+
+
+.bannerimg {
+  display: flex;
+  width: 100%;
+}
+main {
+  margin: 0px;
+  width: 100%;
+}
+
+
+
