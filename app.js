@@ -8,9 +8,8 @@ const publicpath = path.join(__dirname, `./`);
 app.use(express.static(publicpath));
 //ESTO ES UN DIVISOR
 
-app.listen(3030, () => {
-  console.log("Servidor Corriendo");
-});
+const port = process.env.port || 3001;
+app.listen(port, () => console.log(`servidor corriendo en el puerto ${port}`));
 
 app.get(`/`, (req, res) => {
   let htmlpath = path.join(__dirname, `./views/home.html`);
