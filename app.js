@@ -12,11 +12,6 @@ const port = process.env.PORT || 3001;
 app.listen(port, () => console.log(`servidor corriendo en el puerto ${port}`));
 
 app.get(`/`, (req, res) => {
-  let htmlpath = path.join(__dirname, `./views/home.html`);
+  let htmlpath = path.join(__dirname, `/Public/views/home.html`);
   res.sendFile(htmlpath);
 });
-
-app.get(`/`, (req, res) => {
-  let htmlpath = path.join(__dirname, `./views/tucuenta.html`);
-  res.sendFile(htmlpath);
-})
