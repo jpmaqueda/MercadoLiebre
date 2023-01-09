@@ -15,3 +15,8 @@ app.get(`/`, (req, res) => {
   let htmlpath = path.join(__dirname, `./views/home.html`);
   res.sendFile(htmlpath);
 });
+
+app.get(`/`, (req, res) => {
+  let htmlpath = path.join(__dirname, `./views/tucuenta.html`);
+  res.sendFile(htmlpath);
+})
