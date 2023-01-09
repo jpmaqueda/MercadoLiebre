@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "daemon": "^1.1.0",
     "express": "^4.18.2"
   }
 }
